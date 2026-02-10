@@ -14,3 +14,9 @@ Markdown
 - Answer: So the user would be aware of their error instead of wondering how nothing showed up
 **4. Testing:**
 - <img width="1919" height="1079" alt="Screenshot 2026-01-30 202933" src="https://github.com/user-attachments/assets/8421c7c5-3472-4dcd-b6c2-39d2d7c072f6" />
+
+// Act 3
+"Why did I choose to Embed the [Review/Tag/Log]?"
+- Because creation of the review strictly pertains to one dish only, eliminating the need of multiple review
+"Why did I choose to Reference the [Chef/User/Guest]?"
+- I choosed to reference the Chef as he/she can handle multiple dishes at a time

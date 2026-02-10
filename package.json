@@ -1,7 +1,7 @@
 {
   "name": "jandusay-api-activity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Markdown\r # RESTful API Activity - [Mark Dwayne S. Jandusay]\r ## Best Practices Implementation\r **1. Environment Variables:**\r - Why did we put `BASE_URI` in `.env` instead of hardcoding it?\r - Answer: For consistency and easy usage of API's\r **2. Resource Modeling:**\r - Why did we use plural nouns (e.g., `/dishes`) for our routes?\r - Answer: It represents the collection of resources adhering the REST standard\r **3. Status Codes:**\r - When do we use `201 Created` vs `200 OK`?\r - Answer: `201 Created` when a new resources is created while the `200 OK` shows succesion of request but no new resources\r - Why is it important to return `404` instead of just an empty array or a generic error?\r - Answer: So the user would be aware of their error instead of wondering how nothing showed up\r **4. Testing:**\r - <img width=\"1919\" height=\"1079\" alt=\"Screenshot 2026-01-30 202933\" src=\"https://github.com/user-attachments/assets/8421c7c5-3472-4dcd-b6c2-39d2d7c072f6\" />",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,11 +14,19 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
-    "dotenv": "^17.2.3",
+    "dotenv": "^17.2.4",
     "express": "^5.2.1",
     "mongoose": "^9.1.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jandusaymarkdwayne-tech/RESTful-API-Activity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jandusaymarkdwayne-tech/RESTful-API-Activity/issues"
+  },
+  "homepage": "https://github.com/jandusaymarkdwayne-tech/RESTful-API-Activity#readme"
 }
