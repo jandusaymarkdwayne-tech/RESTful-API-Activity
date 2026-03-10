@@ -20,3 +20,14 @@ Markdown
 - Because creation of the review strictly pertains to one dish only, eliminating the need of multiple review
 "Why did I choose to Reference the [Chef/User/Guest]?"
 - I choosed to reference the Chef as he/she can handle multiple dishes at a time
+
+// Act 4
+1. What is the difference between Authentication and Authorization in our
+code?
+Answer: The authentication occured in the middleware of the system that enters verification while authorization filters or identifies the admin's identity through its credentials
+2. Why did we use bcryptjs instead of saving passwords as plain text in
+MongoDB?
+Answer: So that we can ensure that it can't be obtained easily in hashed incase of an hacking activities done in the website
+3. What does the protect middleware do when it receives a JWT from the
+client?
+Answer: It acts as a bouncer which verifies your id and locate you in the system
